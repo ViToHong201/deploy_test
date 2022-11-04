@@ -1,11 +1,11 @@
 {
     "version": 2,
     "functions": {
-        "resources/views/index.blade.php": { "runtime": "vercel-php@0.3.1" }
+        "api/index.php": { "runtime": "vercel-php@0.3.1" }
     },
     "routes": [{
         "src": "/(.*)",
-        "dest": "/resources/views/index.blade.php"
+        "dest": "/api/index.php"
     }],
     "env": {
         "APP_ENV": "production",
